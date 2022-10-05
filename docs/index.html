@@ -1,122 +1,113 @@
-/* 樣式類別選擇器 */
-.banner {
+<!DOCTYPE html>
+<html lang="zh-TW">
 
-    width: 100%;
-    height: 600px;
-    background-image: linear-gradient(to bottom, rgba(174, 227, 207, 0.6),
-            rgba(113, 230, 177, 0.6)), url("202106_jordy_type1_1920.png");
-}
+<head>
+    <meta name="description" content="林奕安介紹" />
+    <meta name="author" content="邱暘壹" />
+    <meta name="keyword" content="邱暘壹,林奕安,yangyiqiu" />
 
+    <!-- 連結style.css樣式表 -->
+    <link rel="stylesheet" href="style.css" type="text/css">
 
-/* 型態選擇器 */
-header {
-    height: 5%;
-    width: 100%;
-    
-    margin-top: 10pt;
-    margin-bottom: 10pt;
+    <title>yangyiqiu</title>
 
-    text-align: center;
-    background: aqua;
+</head>
+<!-- bgcolor社頂背景顏色 -->
+<!-- background設定背景圖片 -->
 
-    color: black;
+<body class="banner">
 
-}
-nav {
-    /* text-align: center; */
-    
-    height: 30pt;
-    width: 100%;
-    background: aquamarine;
-    color: black;
-    border-width: 5px;
-    border:solid blueviolet;
-    padding-bottom: 10pt;
-}
+    <header>人物介紹</header>
+    <nav >
+        <ul class="flex-nav">
+            <li><a href="#">電子商務</a></li>
+            <li><a href="#">市場行銷</a></li>
+            <li><a href="#">辦公室生產力</a></li>
+            <li><a href="#">個人成長</a></li>
+            <li><a href="#">設計</a></li>
+            <li><a href="#">通訊工程與軟體</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- <div id="b">這是導覽列</div> -->
+        <article>
+            <section>
+                <p>there are a <b>handsome man</b>邱暘壹</p>
+                <p>he is so <i>smart and genius</i></p>
+                <p>義安找來<em>暘壹</em>幫他寫介紹</p>
+                <p>他認為這件事<strong>很重要</strong>真的真的<strong>很中藥</strong></p>
+            </section>
+        </article>
+        <article>
 
+            <!-- <input  type="button"  id="bn" value="a.html" onclick="location.href='a.html'"> -->
+            <button id="bn" onclick="location.href='a.html'">b.html</button>
+            <!-- <button class="button">Green</button> -->
+            <section>
+                <!-- 表格致中 -->
+                <table align="center" border="5">
+                    <!-- 表格標題 -->
+                    <caption>人物介紹</caption>
+                    <!-- 表頭內容 -->
+                    <thead>
+                        <!-- row -->
+                        <tr>
+                            <!-- column -->
+                            <th>人物</th>
+                            <th>名稱</th>
+                            <th>介紹</th>
 
+                        </tr>
+                    </thead>
 
-footer {
+                    <!-- 表格本文 -->
+                    <tbody>
+                        <tr>
+                            <td> <a style="color:red;" href="#始祖怪人王">醜林</a>
+                                <a style="color:red;" href="https://www.facebook.com/profile.php?id=100006677648637"
+                                    target="_blank"><img src="螢幕擷取畫面 2022-10-05 111224.jpg" alt="醜林" width="30%"></a>
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    text-align: center;
-    background: aquamarine;
-    color: black;
-}
+                            </td>
+                            <td>始祖怪人</td>
+                            <td>做為始祖怪人卻想變成物理怪<br />計畫去中國發展，回歸偉大的祖國，瞻仰席主席<br />想成為合格的小粉紅，卻不會唱沒有共產黨就沒有新中國<br />喝他即隨意，他大吼時會讓人嘔吐
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="color:red;" href="#邱暘壹">帥壹</a>
+                                <a style="color:red;" href="https://www.facebook.com/profile.php?id=100010875584324"
+                                    target="_blank"><img src="110321005.jpg" alt="帥壹" width="30%" /></a>
+                            </td>
+                            <td>天縱才子</td>
+                            <td>謎一般的人類<br />有人曾在暨大發現他的蹤跡<br />在上古傳說中似乎是始祖怪人的老大</td>
 
-main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    text-align: center;
-    background: coral;
-    color: black;
-}
+                        </tr>
 
-article {
+                    </tbody>
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
+                    <!-- 表格註腳 -->
+                    <tfoot>
+                        <tr>
+                            <td><small>結論</small></td>
+                            <td><small>暘壹好帥</small></td>
+                            <td><small>怪人好怪</small></td>
+                        </tr>
+                    </tfoot>
 
-    text-align: center;
-    background: darkorange;
-    color: black;
+                </table>
+            </section>
+            <section>
+                <dl id="a" align="left">
+                    <dt id="始祖怪人王">始祖怪人王</dt>
+                    <dd>外號醜林</dd>
+                    <dt id="邱暘壹">邱暘壹</dt>
+                    <dd>人稱大帥</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <small>copyright: yangyiqiu</small>
+    </footer>
+</body>
 
-}
-
-section {
-
-
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background: cornsilk;
-    color: black;
-    width: 95%;
-
-}
-
-table {
-    display: table;
-    background: cornflowerblue;
-
-    color: rgb(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-/* id選擇器 */
-#bn {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: 900;
-
-    border-style:solid;
-    border-color: cornflowerblue;
-
-    background-color: #2121cb;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-#a{
-    text-shadow: 0.1em 0.1em 0.2em black;
-
-}
-/* div{
-    width: 100pt;
-    height: 50pt;
-} */
-.flex-nav {
-    display: flex;
-    justify-content: space-between;
-
-}
-
+</html>
