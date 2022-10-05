@@ -1,0 +1,74 @@
+.banner{
+    padding-top: 25px;
+    width:100%;
+    height:600px;
+    background-image:linear-gradient(to bottom, rgba(174, 227, 207, 0.6), 
+    rgba(113, 230, 177, 0.6)), url("202106_jordy_type1_1920.png");
+  }
+  .quote{
+    margin: 0 auto;
+   
+    color: grey;
+    padding-left: 20px;
+    border-left: 10px solid #fff;
+  }
+  header {
+    text-align: center;
+    background: aqua;
+    color: black;
+
+}
+
+nav {
+    text-align: center;
+    background: aquamarine;
+    color: black;
+}
+
+footer {
+    margin-left:auto; 
+    margin-right:auto;
+    width:10%;
+    text-align: center;
+    background: aquamarine;
+    color: black;
+}
+
+main {
+    margin-left:auto; 
+    margin-right:auto;
+    width:70%;
+    text-align: center;
+    background: coral;
+    color: black;
+}
+
+article {
+    margin-left:auto; 
+    margin-right:auto;
+    width:95%;
+
+    text-align: center;
+    background: darkorange;
+    color: black;
+    
+}
+
+section {
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    background: cornsilk;
+    color: black;
+    width:95%;
+
+}
+
+  table{ 
+    background:  cornflowerblue;
+   
+    color: rgb(0, 0, 0);
+  margin-left:auto; 
+    margin-right:auto;
+    width: 60%;
+    }  
