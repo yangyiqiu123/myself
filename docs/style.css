@@ -90,7 +90,7 @@ table {
 }
 
 /* id選擇器 */
-#bn {
+.bn {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 30px;
@@ -119,7 +119,7 @@ table {
     justify-content: space-between;
 
 }
-#b{
+.b{
     font-size: 30pt;
 }
 .bb{
