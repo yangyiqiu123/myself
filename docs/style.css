@@ -90,6 +90,22 @@ table {
 }
 
 /* id選擇器 */
+.form_type{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 400;
+
+    border-style:solid;
+    border-color: rgb(5, 42, 110);
+
+    background-color: #1495ea;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 .bn {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
