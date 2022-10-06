@@ -1,34 +1,113 @@
 <!DOCTYPE html>
+<html lang="zh-TW">
+
 <head>
-    <title>test</title>
+    <meta name="description" content="林奕安介紹" />
+    <meta name="author" content="邱暘壹" />
+    <meta name="keyword" content="邱暘壹,林奕安,yangyiqiu" />
+
+    <!-- 連結style.css樣式表 -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>yangyiqiu</title>
+
 </head>
-<body>
-    <table border="5">
-        <tr>
-            <th>人物</th>
-            <th>名稱</th>
-            <th>介紹</th>
-        </tr>
-        <tr>
-            <td>
-                醜林
-            </td>
-            <td>b</td>
-            <td>c</td>
-        </tr>
-        <tr>
-            <td>怪人</td>
-            <td>e</td>
-            <td>f</td>
+<!-- bgcolor社頂背景顏色 -->
+<!-- background設定背景圖片 -->
 
-        </tr>
-        <tr>
-            <td>王</td>
-            <td>h</td>
-            <td>i</td>
+<body class="banner">
 
-        </tr>
+    <header>人物介紹</header>
+    <nav >
+        <ul class="flex-nav">
+            <li><a href="#">電子商務</a></li>
+            <li><a href="#">市場行銷</a></li>
+            <li><a href="#">辦公室生產力</a></li>
+            <li><a href="#">個人成長</a></li>
+            <li><a href="#">設計</a></li>
+            <li><a href="#">通訊工程與軟體</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- <div id="b">這是導覽列</div> -->
+        <article>
+            <section>
+                <p>there are a <b>handsome man</b>邱暘壹</p>
+                <p>he is so <i>smart and genius</i></p>
+                <p>義安找來<em>暘壹</em>幫他寫介紹</p>
+                <p>他認為這件事<strong>很重要</strong>真的真的<strong>很中藥</strong></p>
+            </section>
+        </article>
+        <article>
 
-    </table>
+            <!-- <input  type="button"  id="bn" value="a.html" onclick="location.href='a.html'"> -->
+            <button id="bn" onclick="location.href='a.html'">b.html</button>
+            <!-- <button class="button">Green</button> -->
+            <section>
+                <!-- 表格致中 -->
+                <table align="center" border="5">
+                    <!-- 表格標題 -->
+                    <caption>人物介紹</caption>
+                    <!-- 表頭內容 -->
+                    <thead>
+                        <!-- row -->
+                        <tr>
+                            <!-- column -->
+                            <th>人物</th>
+                            <th>名稱</th>
+                            <th>介紹</th>
+
+                        </tr>
+                    </thead>
+
+                    <!-- 表格本文 -->
+                    <tbody>
+                        <tr>
+                            <td> <a style="color:red;" href="#始祖怪人王">醜林</a>
+                                <a style="color:red;" href="https://www.facebook.com/profile.php?id=100006677648637"
+                                    target="_blank"><img src="螢幕擷取畫面 2022-10-05 111224.jpg" alt="醜林" width="30%"></a>
+
+                            </td>
+                            <td>始祖怪人</td>
+                            <td>做為始祖怪人卻想變成物理怪<br />認為台灣清華與中國清華通根同源，因此計畫去中國發展<br />回歸偉大的祖國，瞻仰席主席<br />想成為合格的小粉紅，卻不會唱沒有共產黨就沒有新中國<br />喝他即隨意，他大吼時會讓人嘔吐
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="color:red;" href="#邱暘壹">帥壹</a>
+                                <a style="color:red;" href="https://www.facebook.com/profile.php?id=100010875584324"
+                                    target="_blank"><img src="110321005.jpg" alt="帥壹" width="30%" /></a>
+                            </td>
+                            <td>天縱才子</td>
+                            <td>暨大無聊怪<br />似乎是始祖怪人的老大</td>
+
+                        </tr>
+
+                    </tbody>
+
+                    <!-- 表格註腳 -->
+                    <tfoot>
+                        <tr>
+                            <td><small>結論</small></td>
+                            <td><small>暘壹好帥</small></td>
+                            <td><small>怪人好怪</small></td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </section>
+            <section>
+                <dl id="a" align="left">
+                    <dt id="始祖怪人王">始祖怪人王</dt>
+                    <dd>外號醜林</dd>
+                    <dt id="邱暘壹">邱暘壹</dt>
+                    <dd>人稱大帥</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <small>copyright: yangyiqiu</small>
+    </footer>
 </body>
+
 </html>
