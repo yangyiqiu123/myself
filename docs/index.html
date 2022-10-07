@@ -74,8 +74,8 @@
                     <h3 style="text-align: center;"> 請輸入你的年齡</h3>
                     </p>
                     <!-- <form> -->
-
-                        <input id="old" style="width:100%" type="text" name="name" value="輸入你的年齡" size="20">
+                        <!-- value="輸入你的年齡" -->
+                        <input id="old" style="width:100%" type="text" name="name" placeholder="輸入你的年齡"  size="20">
 
                     <!-- </form> -->
                     <br />
@@ -116,7 +116,7 @@
                     <button onclick="fun();">找晚餐</button>
                     <script>
                         function fun() {
-                            var a = Math.ceil(Math.random() * 1);
+                            var a = Math.ceil(Math.random() * 15);
                             document.getElementById("img1").src = "gg/食物/"+a+".jpg";
                         }
                     </script>
