@@ -3,40 +3,69 @@
 
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom, #AAC4FF,
-            rgba(113, 230, 177, 0.6)), url("202106_jordy_type1_1920.png");
+    background-image:url('7.jpeg');
+
 }
-
-
 /* 型態選擇器 */
 header {
-    height: auto;
+
+    height: 100pt;
     width: 100%;
     
-    margin-top: 10pt;
-    margin-bottom: 10pt;
+   
 
-    text-align: center;
-    background:#BCF4F5;
 
+
+}
+.bg{
+    
+    /* background-color:rgba(188, 244, 245, 0.466); */
+    background:linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267),rgba(188, 244, 245, 0.632),rgba(188, 244, 245, 0.459));
+    /* background-color:linear-gradient(to bottom, rgba(188, 244, 245, 0.466),
+    rgba(113, 230, 177, 0.6)); */
+    width:50%;
+    border-radius: 10px 10px 10px 10px;
+    
+    height: auto;
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 300px; */
+    /* align-items: center;  */
+    /* background-size: 100% 100%; */
+   
+}
+.bg p{
+    background-size: 100% 100%;
     color: black;
+    text-align: center;
+
+
+}
+header p{
+    position:relative;
+    font-size:50pt;
 
 }
 nav {
+    border-radius: 10px 10px 10px 10px;
+
     /* text-align: center; */
-    
+    background:linear-gradient(to bottom, rgba(170, 161, 200, 0.4),rgba(170, 161, 200, 0.888),rgba(170, 161, 200, 0.801), rgba(170, 161, 200, 0.842));
     height: 30pt;
     width: 100%;
-    background: #AAA1C8;
+    /* background: #aaa1c8; */
     color: black;
     border-width: 5px;
-    border:solid blueviolet;
+    border:solid rgba(137, 43, 226, 0.075);
     padding-bottom: 10pt;
 }
 
 
 
 footer {
+    border-radius: 20px 20px 20px 20px;
 
     margin-left: auto;
     margin-right: auto;
@@ -47,22 +76,29 @@ footer {
 }
 
 main {
+    border-radius: 20px 20px 20px 20px;
+
+    border-radius: 20px 20px 20px 20px;
+    background:linear-gradient(to bottom, rgba(180, 235, 202, 0.55),rgba(70, 151, 126, 0.683),rgba(22, 196, 199, 0.925));
+
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     text-align: center;
-    background: #B4EBCA;
+    /* background: #b4ebca; */
     color: black;
 }
 
 article {
+    border-radius: 20px 20px 20px 20px;
+
 
     margin-left: auto;
     margin-right: auto;
     width: 95%;
 
     text-align: center;
-    background: #D9F2B4;
+    background: #d9f2b497;
     color: black;
 
 }
@@ -73,7 +109,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: #D3FAC7;
+    background: #d3fac7b6;
     color: black;
     width: 95%;
 
@@ -113,11 +149,12 @@ table {
     font-size: 30px;
     font-style: oblique;
     font-weight: 900;
+    border-radius: 30px 30px 30px 30px;
 
     border-style:solid;
     border-color: cornflowerblue;
-
-    background-color:#586994;
+    background:repeating-radial-gradient(circle,rgba(88, 105, 148, 0.454) , rgba(33, 59, 125, 0.304) 30px, rgba(21, 58, 154, 0.409) 60px);
+    /* background-color:#586994; */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
