@@ -32,13 +32,57 @@
 <!-- background設定背景圖片 -->
 
 <body class="banner">
+    <div style=" float: left; " >
+        <details style=" font-size: 15pt; ">
+            <summary>我是誰</summary>
+            <p>我是我</p>
 
-    <header>
+
+        </details>
+    </div>
+    <div style=" float: left;">
+
+        <details style=" font-size: 15pt;">
+            <summary>你是誰</summary>
+            <p>誰知道</p>
+        </details>
+    </div>
+    </div>
+    <div style=" float: left;">
+
+        <details style=" font-size: 15pt;">
+            <summary>他是誰</summary>
+            <p>無聊怪</p>
+        </details>
+    </div>
+    <div style=" float: left;">
+
+        <details style=" font-size: 15pt;">
+            <summary>書</summary>
+            <p><a href="#" style="color: rgb(206, 206, 206);">a</a></p>
+            <p><a href="#" style="color: rgb(206, 206, 206);">b</a></p>
+        </details>
+    </div>
+    <div style=" float: left;">
+
+        <details style=" font-size: 15pt;">
+            <summary>贊助商</summary>
+            <p><a href="https://www.w3schools.com/" style="color: rgb(206, 206, 206);">w3schools</a></p>
+            <p><a href="https://www.codecademy.com/learn" style="color: rgb(206, 206, 206);">codeacdemy</a></p>
+            <p><a href="hhttps://github.com/yangyiqiu123?tab=repositories" style="color: rgb(206, 206, 206);">github</a></p>
+
+        </details>
+    </div>
+
+    <header style="clear: both;">
+
         <div class="bg">
             <p>暘壹專屬高級網站</p>
         </div>
         <!-- <div class="box"></div> -->
+
     </header>
+
     <nav>
         <ul class="flex-nav">
             <div class="floatbox">
@@ -49,7 +93,12 @@
                 <li><a style="color:rgb(17, 27, 234); font-size: 15pt;" href="gg/r.html" target="_blank">電子商務</a></li>
             </div>
             <div class="floatbox">
-                <li><a style="color:rgb(46, 16, 218); font-size: 15pt;" href="#">辦公室生產力</a></li>
+                <li>
+
+                    <a style="color:rgb(46, 16, 218); font-size: 15pt; " href="https://hackmd.io/?nav=overview">辦公室生產力</a>
+
+
+                </li>
             </div>
             <div class="floatbox">
                 <li><a style="color:rgb(33, 15, 227); font-size: 15pt;"
@@ -61,6 +110,7 @@
         </ul>
 
     </nav>
+
     <main>
 
 
@@ -74,8 +124,8 @@
                     <h3 style="text-align: center;"> 請輸入你的年齡</h3>
                     </p>
                     <!-- <form> -->
-                        <!-- value="輸入你的年齡" -->
-                        <input id="old" style="width:100%" type="text" name="name" placeholder="輸入你的年齡"  size="20">
+                    <!-- value="輸入你的年齡" -->
+                    <input id="old" style="width:100%" type="text" name="name" placeholder="輸入你的年齡" size="20">
 
                     <!-- </form> -->
                     <br />
@@ -87,7 +137,7 @@
                     <progress id='progress1' value="0" min="0" max="100"></progress>
                     <script>
                         function start_run(n) {
-                            var old = document.getElementById("old").value;
+                            var old = parseInt(document.getElementById("old").value);
                             if (n == 0) { alert("經過計算您的真實年齡為" + old + "歲") }
                             var progress1 = document.getElementById("progress1")
                             n = n - 1
@@ -117,27 +167,29 @@
                     <script>
                         function fun() {
                             var a = Math.ceil(Math.random() * 15);
-                            document.getElementById("img1").src = "gg/食物/"+a+".jpg";
+                            document.getElementById("img1").src = "gg/食物/" + a + ".jpg";
                         }
                     </script>
                 </div>
                 <div style="width:30% ;float: left;margin-left:30pt;">
-                    <p><h3>今天暘壹的帥氣程度</h3></p>
+                    <p>
+                    <h3>今天暘壹的帥氣程度</h3>
+                    </p>
                     <img id="img1" src="螢幕擷取畫面 2022-10-06 230540.jpg" alt="check" height="200pt" width="300pt" />
                     <!-- <input> -->
-                    <br/>
+                    <br />
                     <input oninput="myFunction()" value="你猜" id="handsome" type="range" min="-100" max="100" step="1">
                     <p id="handsome_text">目前猜測帥氣程度為:0暘壹單位</p>
                     <button style=" position:relative; width:50% ; " onclick="start_test()">開始測試</button>
                     <script>
-                        function myFunction(){
+                        function myFunction() {
                             let x = document.getElementById("handsome").value;
                             document.getElementById("handsome_text").innerHTML = "目前猜測帥氣程度為:" + x + "暘壹單位";
                         }
                         function start_test() {
                             var handsome = document.getElementById("handsome").value;
-                            alert("經過計算暘壹今天的帥氣程度為" + "1000000暘壹單位") 
-                           
+                            alert("經過計算暘壹今天的帥氣程度為" + "1000000暘壹單位")
+
 
                         }
                     </script>
