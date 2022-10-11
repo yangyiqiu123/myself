@@ -32,55 +32,96 @@
 <!-- background設定背景圖片 -->
 
 <body class="banner">
-    <div style=" float: left; " >
-        <details style=" font-size: 15pt; ">
-            <summary>我是誰</summary>
-            <p>我是我</p>
+    <div style="display: flex;
+    justify-content: space-between;
+    align-items: center;
+   ">
 
 
-        </details>
+
+
+
+        <div>
+            <details style=" font-size: 15pt; ">
+                <summary>我是誰</summary>
+                <p>我是我</p>
+
+
+            </details>
+        </div>
+        <div>
+
+            <details style=" font-size: 15pt;">
+                <summary>你是誰</summary>
+                <p>誰知道</p>
+            </details>
+        </div>
+        <div>
+
+            <details style=" font-size: 15pt;">
+                <summary>他是誰</summary>
+                <p>無聊怪</p>
+            </details>
+        </div>
+        <div>
+
+            <details style=" font-size: 15pt;">
+                <summary>書</summary>
+                <p><a href="#" style="color: rgb(206, 206, 206);">a</a></p>
+                <p><a href="#" style="color: rgb(206, 206, 206);">b</a></p>
+            </details>
+        </div>
+        <div>
+
+            <details style=" font-size: 15pt;">
+                <summary>贊助商</summary>
+                <p><a href="https://www.w3schools.com/" style="color: rgb(206, 206, 206);">w3schools</a></p>
+                <p><a href="https://www.codecademy.com/learn" style="color: rgb(206, 206, 206);">codeacdemy</a></p>
+                <p><a href="hhttps://github.com/yangyiqiu123?tab=repositories"
+                        style="color: rgb(206, 206, 206);">github</a>
+                </p>
+
+            </details>
+        </div>
     </div>
-    <div style=" float: left;">
 
-        <details style=" font-size: 15pt;">
-            <summary>你是誰</summary>
-            <p>誰知道</p>
-        </details>
-    </div>
-    </div>
-    <div style=" float: left;">
 
-        <details style=" font-size: 15pt;">
-            <summary>他是誰</summary>
-            <p>無聊怪</p>
-        </details>
-    </div>
-    <div style=" float: left;">
 
-        <details style=" font-size: 15pt;">
-            <summary>書</summary>
-            <p><a href="#" style="color: rgb(206, 206, 206);">a</a></p>
-            <p><a href="#" style="color: rgb(206, 206, 206);">b</a></p>
-        </details>
-    </div>
-    <div style=" float: left;">
 
-        <details style=" font-size: 15pt;">
-            <summary>贊助商</summary>
-            <p><a href="https://www.w3schools.com/" style="color: rgb(206, 206, 206);">w3schools</a></p>
-            <p><a href="https://www.codecademy.com/learn" style="color: rgb(206, 206, 206);">codeacdemy</a></p>
-            <p><a href="hhttps://github.com/yangyiqiu123?tab=repositories" style="color: rgb(206, 206, 206);">github</a></p>
-
-        </details>
-    </div>
 
     <header style="clear: both;">
 
-        <div class="bg">
+        <div class="bg"  >
             <p>暘壹專屬高級網站</p>
         </div>
+
         <!-- <div class="box"></div> -->
 
+    </header>
+    <header >
+
+       
+
+<div style="text-align:center;">
+        <button style="
+       
+     height: auto;
+        text-align: center;
+     font-size: 50pt;
+     width: 50%;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
+
+       
+       "  onclick="location.href='jianguanyonf/a.html'   ">簡冠詠專屬高級網站</button>
+
+
+        <!-- <div class="bg" style="margin-bottom: 60px;">
+            <p>簡冠詠專屬高級網站</p>
+            
+        </div> -->
+        <!-- <div class="box"></div> -->
+    </div>
     </header>
 
     <nav>
@@ -95,7 +136,8 @@
             <div class="floatbox">
                 <li>
 
-                    <a style="color:rgb(46, 16, 218); font-size: 15pt; " href="https://hackmd.io/?nav=overview">辦公室生產力</a>
+                    <a style="color:rgb(46, 16, 218); font-size: 15pt; "
+                        href="https://hackmd.io/?nav=overview">辦公室生產力</a>
 
 
                 </li>
@@ -137,13 +179,17 @@
                     <progress id='progress1' value="0" min="0" max="100"></progress>
                     <script>
                         function start_run(n) {
+
                             var old = parseInt(document.getElementById("old").value);
-                            if (n == 0) { alert("經過計算您的真實年齡為" + old + "歲") }
-                            var progress1 = document.getElementById("progress1")
-                            n = n - 1
-                            cur_task = 100 - n
-                            progress1.value = cur_task
-                            setTimeout("start_run(" + n + ")", 100)
+                            if (n == 0) { alert("經過計算您的真實年齡為" + old + "歲"); }
+                            var progress1 = document.getElementById("progress1");
+                            n = n - 1;
+                            cur_task = 100 - n;
+                            progress1.value = cur_task;
+                            setTimeout("start_run(" + n + ")", 100);
+
+
+
 
                         }
                     </script>
