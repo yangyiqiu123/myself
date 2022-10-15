@@ -32,71 +32,17 @@
 <!-- background設定背景圖片 -->
 
 <body class="banner">
-    <div style="display: flex;
-    justify-content: space-between;
-    align-items: center;
-   ">
 
+    <main>
 
+        <header style="clear: both;">
 
-
-
-        <div>
-            <details style=" font-size: 15pt; ">
-                <summary>我是誰</summary>
-                <p>我是我</p>
-
-
-            </details>
-        </div>
-        <div>
-
-            <details style=" font-size: 15pt;">
-                <summary>你是誰</summary>
-                <p>誰知道</p>
-            </details>
-        </div>
-        <div>
-
-            <details style=" font-size: 15pt;">
-                <summary>他是誰</summary>
-                <p>無聊怪</p>
-            </details>
-        </div>
-        <div>
-
-            <details style=" font-size: 15pt;">
-                <summary>書</summary>
-                <p><a href="#" style="color: rgb(206, 206, 206);">a</a></p>
-                <p><a href="#" style="color: rgb(206, 206, 206);">b</a></p>
-            </details>
-        </div>
-        <div>
-
-            <details style=" font-size: 15pt;">
-                <summary>贊助商</summary>
-                <p><a href="https://www.w3schools.com/" style="color: rgb(206, 206, 206);">w3schools</a></p>
-                <p><a href="https://www.codecademy.com/learn" style="color: rgb(206, 206, 206);">codeacdemy</a></p>
-                <p><a href="hhttps://github.com/yangyiqiu123?tab=repositories"
-                        style="color: rgb(206, 206, 206);">github</a>
-                </p>
-
-            </details>
-        </div>
-    </div>
-
-
-
-
-
-    <header style="clear: both;">
-
-        <!-- <div class="bg"  >
+            <!-- <div class="bg"  >
             <p>暘壹專屬高級網站</p>
         </div> -->
 
-        <div style="text-align:center;">
-            <button style="
+            <div style="text-align:center;">
+                <button style="
            
          height: auto;
             text-align: center;
@@ -106,16 +52,16 @@
         background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
     
            
-           "  onclick="location.href='yangyiqiu/main.html'   ">暘壹專屬高級網站</button>
-        <!-- <div class="box"></div> -->
+           " onclick="location.href='yangyiqiu/main.html'   ">暘壹專屬高級網站</button>
+                <!-- <div class="box"></div> -->
 
-    </header>
-    <header >
+        </header>
+        <header>
 
-       
 
-<div style="text-align:center;">
-        <button style="
+
+            <div style="text-align:center;">
+                <button style="
        
      height: auto;
         text-align: center;
@@ -125,264 +71,18 @@
     background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
 
        
-       "  onclick="location.href='jianguanyonf/a.html'   ">簡冠詠專屬高級網站</button>
+       " onclick="location.href='jianguanyonf/a.html'   ">簡冠詠專屬高級網站</button>
 
 
-        <!-- <div class="bg" style="margin-bottom: 60px;">
+                <!-- <div class="bg" style="margin-bottom: 60px;">
             <p>簡冠詠專屬高級網站</p>
             
         </div> -->
-        <!-- <div class="box"></div> -->
-    </div>
-    </header>
-
-    <nav>
-        <ul class="flex-nav">
-            <div class="floatbox">
-                <li><a style="color:rgb(16, 20, 242); font-size: 15pt;" href="b.html" target="_blank"> 通訊協定</a></li>
+                <!-- <div class="box"></div> -->
             </div>
-
-            <div class="floatbox">
-                <li><a style="color:rgb(17, 27, 234); font-size: 15pt;" href="gg/r.html" target="_blank">電子商務</a></li>
-            </div>
-            <div class="floatbox">
-                <li>
-
-                    <a style="color:rgb(46, 16, 218); font-size: 15pt; "
-                        href="https://hackmd.io/?nav=overview">辦公室生產力</a>
+        </header>
 
 
-                </li>
-            </div>
-            <div class="floatbox">
-                <li><a style="color:rgb(33, 15, 227); font-size: 15pt;"
-                        href="https://github.com/yangyiqiu123/uva-practice.git" target="_blank">個人成長</a></li>
-            </div>
-            <div class="floatbox">
-                <li><a style="color:rgb(40, 13, 215); font-size: 15pt;" href="#">設計</a></li>
-            </div>
-        </ul>
-
-    </nav>
-
-    <main>
-
-
-        <article>
-
-            <section>
-                <div style="width:30% ;float: left;">
-
-
-                    <p>
-                    <h3 style="text-align: center;"> 請輸入你的年齡</h3>
-                    </p>
-                    <!-- <form> -->
-                    <!-- value="輸入你的年齡" -->
-                    <input id="old" style="width:100%" type="text" name="name" placeholder="輸入你的年齡" size="20">
-
-                    <!-- </form> -->
-                    <br />
-
-                    <button style=" position:relative; width:50% ; " onclick="start_run(100)">開始</button>
-                    <br />
-
-                    正在計算
-                    <progress id='progress1' value="0" min="0" max="100"></progress>
-                    <script>
-                        function start_run(n) {
-
-                            var old = parseInt(document.getElementById("old").value);
-                            if (n == 0) { alert("經過計算您的真實年齡為" + old + "歲"); }
-                            var progress1 = document.getElementById("progress1");
-                            n = n - 1;
-                            cur_task = 100 - n;
-                            progress1.value = cur_task;
-                            setTimeout("start_run(" + n + ")", 100);
-
-
-
-
-                        }
-                    </script>
-                    <p>
-                        硬碟使用量:
-                        0<meter value="280" min="0" max="320" low="10" high="250" title="GB">58GB</meter>320GB
-
-                    </p>
-                    <p>
-                        空間使用量
-                        0% <meter value="0.6">60%</meter>100%
-                    </p>
-                </div>
-                <div style="width:30% ;float: left;margin-left:30pt;">
-                    <p>
-                    <h3>猜猜晚餐要吃什麼</h3>
-                    </p>
-                    <img id="img1" src="gg/食物/1.jpg" alt="check" height="200pt" width="300pt" />
-
-                    <button onclick="fun();">找晚餐</button>
-                    <script>
-                        function fun() {
-                            var a = Math.ceil(Math.random() * 15);
-                            document.getElementById("img1").src = "gg/食物/" + a + ".jpg";
-                        }
-                    </script>
-                </div>
-                <div style="width:30% ;float: left;margin-left:30pt;">
-                    <p>
-                    <h3>今天暘壹的帥氣程度</h3>
-                    </p>
-                    <img id="img1" src="螢幕擷取畫面 2022-10-06 230540.jpg" alt="check" height="200pt" width="300pt" />
-                    <!-- <input> -->
-                    <br />
-                    <input oninput="myFunction()" value="你猜" id="handsome" type="range" min="-100" max="100" step="1">
-                    <p id="handsome_text">目前猜測帥氣程度為:0暘壹單位</p>
-                    <button style=" position:relative; width:50% ; " onclick="start_test()">開始測試</button>
-                    <script>
-                        function myFunction() {
-                            let x = document.getElementById("handsome").value;
-                            document.getElementById("handsome_text").innerHTML = "目前猜測帥氣程度為:" + x + "暘壹單位";
-                        }
-                        function start_test() {
-                            var handsome = document.getElementById("handsome").value;
-                            alert("經過計算暘壹今天的帥氣程度為" + "1000000暘壹單位")
-
-
-                        }
-                    </script>
-
-                </div>
-
-                <!-- clear: both清除float讓後面能正常排版 -->
-                <div style="clear: both;">
-
-                    <!-- <div id="b">這是導覽列</div> -->
-                    <form style="text-align:left" class="form_type" action="MAILTO:yangyiqiu420@gmail.com" method="post"
-                        enctype="text/plain">
-
-                        <h3>這個表彰會發郵件到暘壹的私人秘書的信箱。</h3>
-                        姓名：<br />
-                        <input type="text" name="name" value="yourname" size="20">
-                        <br />
-                        電郵：<br />
-                        <input type="text" name="mail" value="yourmail" size="20">
-                        <br />
-                        你認為這個網站實用嗎?：<br />
-                        <input type="text" name="comment" value="yourcomment" size="40">
-                        <br /><br />
-                        <input type="submit" value="提交">
-                        <input type="reset" value="重置">
-
-                    </form>
-                </div>
-            </section>
-        </article>
-
-        <!-- <button class="bn" onclick="location.href='mailto:yangyiqiu420@gmail.com?body=今天天氣好，暘壹也好帥，真是個美好的一天。我想跟大帥說 : '">好想與大帥壹聯絡，寄信給大帥壹</button> -->
-        <article>
-
-            <section style="position: relative;top:5pt; border-radius: 10px 10px 10px 10px;">
-                <p>there are a <b>handsome man</b>邱暘壹</p>
-                <p>he is so <i>smart and genius</i></p>
-                <p>義安找來<em>暘壹</em>幫他寫介紹</p>
-                <p>他認為這件事<strong>很重要</strong>真的真的<strong>很重要</strong></p>
-            </section>
-        </article>
-        <article>
-
-            <!-- <input  type="button"  id="bn" value="a.html" onclick="location.href='a.html'"> -->
-            <button class="bn" onclick="location.href='a.html'   ">Press To Play<br />Snake Game</button>
-            <!-- <button class="button">Green</button> -->
-            <section>
-                <!-- 表格致中 -->
-                <table align="center" border="5">
-                    <!-- 表格標題 -->
-                    <caption>人物介紹</caption>
-                    <!-- 表頭內容 -->
-                    <thead>
-                        <!-- row -->
-                        <tr>
-                            <!-- column -->
-                            <th>人物</th>
-                            <th>名稱</th>
-                            <th>介紹</th>
-
-                        </tr>
-                    </thead>
-
-                    <!-- 表格本文 -->
-                    <tbody>
-                        <tr>
-                            <td>
-                                <figure>
-                                    <a style="color:red;" href="https://www.facebook.com/profile.php?id=100010875584324"
-                                        target="_blank"><img src="螢幕擷取畫面 2022-10-06 230540.jpg" alt="帥壹"
-                                            width="30%" /></a>
-                                    <figcaption>?????<br />難道是傳說中的大帥?</figcaption>
-                                </figure>
-
-
-                            </td>
-                            <td>天縱才子</td>
-                            <td>在暨大當無聊怪<br />有個高級網頁卻不知道要放什麼<br />只去紀錄各種奇怪的物種<br />雖然略顯浪費<br />卻也能讓大家了解的這些物種的可怕之處<br />暘壹好帥
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>
-                                <figure>
-                                    <a style="color:red;" href="https://www.facebook.com/profile.php?id=100006677648637"
-                                        target="_blank"><img src="螢幕擷取畫面 2022-10-05 111224.jpg" alt="醜林"
-                                            width="30%"></a>
-                                    <figcaption>有人冒著危險拍的始祖怪人照片<br />可以說是十分偉大</figcaption>
-                                </figure>
-
-
-                            </td>
-
-                            <td>始祖怪人</td>
-                            <td>做為始祖怪人卻想變成物理怪<br />認為台灣清華與中國清華通根同源，因此計畫去中國發展<br />回歸偉大的祖國，瞻仰席主席<br />想成為合格的小粉紅，卻不會唱沒有共產黨就沒有新中國<br />喝他即隨意，他大吼時會讓人嘔吐
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <figure>
-                                    <a style="color:red;" href="https://www.facebook.com/profile.php?id=100006677648637"
-                                        target="_blank"><img src="ug.jpg" alt="醜林" width="30%"></a>
-                                    <figcaption>廖丑表演時的珍貴照片</figcaption>
-                                </figure>
-
-
-                            </td>
-                            <td>彰師小丑</td>
-                            <td>在傳說中是始祖怪人的御用小丑<br />當大家看他表演卻不笑時，他就會爆氣<br />做出迷一般的舉動表達他的不滿，這些動作總能讓人哈哈大笑<br />他卻總以為是人家喜歡他的表演<br />因此他對自己的技術十分自信，所以到彰師進修<br />想利用自己的才華培養出優秀的同行<br />讓大家天天開心
-                            </td>
-                        </tr>
-
-                    </tbody>
-
-                    <!-- 表格註腳 -->
-                    <tfoot>
-                        <tr>
-                            <td><small>結論</small></td>
-                            <td colspan="2"><small>暘壹好帥 怪人好怪</small></td>
-
-                        </tr>
-                    </tfoot>
-
-                </table>
-            </section>
-            <section>
-                <dl id="a" align="left">
-                    <dt id="始祖怪人王">始祖怪人王</dt>
-                    <dd>外號醜林</dd>
-                    <dt id="邱暘壹">邱暘壹</dt>
-                    <dd>人稱大帥</dd>
-                </dl>
-            </section>
-        </article>
     </main>
     <footer>
         <small>copyright: yangyiqiu</small>
@@ -392,4 +92,3 @@
 </body>
 
 </html>
-
