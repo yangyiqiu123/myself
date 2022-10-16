@@ -1,267 +1,125 @@
-/* 樣式類別選擇器 */
-.banner {
+<!DOCTYPE html>
+<html lang="zh-TW" style=" height: 100%;">
 
-    width: 100%;
-    height: auto;
-    background-image: url('7.jpeg');
-    margin: auto;
+<head>
+    <meta name="description" content="暘壹專屬高級網站" />
+    <meta name="author" content="邱暘壹" />
+    <meta name="keyword" content="邱暘壹,林奕安,yangyiqiu" />
 
-}
+    <link rel="icon" href="螢幕擷取畫面 2022-10-06 230413.jpg" type="image/x-icon" />
 
-/* 型態選擇器 */
-header {
+    <meta property="og:type" content="article" />
 
-    height: 100pt;
-    width: 100%;
+    <!-- 網頁標題或是顯示內容的標題 -->
+    <meta property="og:title" content="暘壹專屬高級網站" />
+
+    <!-- 網頁內容的簡單說明、建議以二至四句話來說明。 -->
+    <meta property="og:description" content="暘壹專屬高級網站 1 號，好想被寫進去喔" />
+
+    <!-- 分享的縮圖(網頁的預覽圖) -->
+    <meta property="og:image" content="螢幕擷取畫面 2022-10-06 230413.jpg" />
+
+    <!-- 網頁的唯一網址canonical URL。如果您有手機版和電腦版二個網頁、將二個網頁的og:url設成電腦版的網址，兩個網頁的facebook按讚次數就可以加總統計在一起。 -->
+    <meta property="og:url" content="https://www.yangyiqiu.co/" />
+
+    <!-- 連結style.css樣式表 -->
+    <link rel="stylesheet" href="https://www.yangyiqiu.co/style.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+
+    <title>暘壹專屬高級網站</title>
+
+</head>
+<!-- bgcolor社頂背景顏色 -->
+<!-- background設定背景圖片 -->
+
+<body class="banner " style=" height: 100%;">
+
+
+
+    <!-- <div class="bg"  >
+            <p>暘壹專屬高級網站</p>
+        </div> -->
+
+    <div style="text-align:center; display: flex;
+    /* 水平置中 */
+   
+    justify-content: center;    
+    /* 垂直置中 */
     align-items: center;
-    margin-bottom:5%;
-    margin-top: 5%;
+    height: 90%; ">
+
+        <button style="
+           
+         height: auto;
+            text-align: center;
+         font-size: 50pt;
+         width: auto;
+        border-radius: 10px 10px 10px 10px;
+        background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
     
+           
+           " onclick="location.href='yangyiqiu/main.html'   ">點擊進入暘壹專屬高級網站</button>
+    </div>
 
 
-
-
-}
-
-.bg {
-
-    /* background-color:rgba(188, 244, 245, 0.466); */
-    background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
-    /* background-color:linear-gradient(to bottom, rgba(188, 244, 245, 0.466),
-    rgba(113, 230, 177, 0.6)); */
-    width: 50%;
-    border-radius: 10px 10px 10px 10px;
-
-    height: auto;
-
-
-    margin-left: auto;
-    margin-right: auto;
-    /* height: 300px; */
-    /* align-items: center;  */
-    /* background-size: 100% 100%; */
-
-}
-
-.bg p {
-
-    background-size: 100% 100%;
-    color: black;
-    text-align: center;
-
-
-}
-
-header p {
-
-
-    position: relative;
-    font-size: 50pt;
-
-}
-
-nav {
-    border-radius: 10px 10px 10px 10px;
-    /* text-align: center; */
-    background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.888), rgba(170, 161, 200, 0.801), rgba(170, 161, 200, 0.842));
-    height: 30pt;
-    width: 100%;
-    /* background: #aaa1c8; */
-    color: black;
-    border-width: 5px;
-    border: solid rgba(137, 43, 226, 0.075);
-
-
-    left:0;
-
-}
-
-
-
-footer {
-    border-radius: 20px 20px 20px 20px;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    text-align: center;
-    background: #AAA1C8;
-    color: black;
-}
-
-main {
-    margin-top: 30pt;
-    border-radius: 20px 20px 20px 20px;
-
-    border-radius: 20px 20px 20px 20px;
-    background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925));
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    text-align: center;
-    /* background: #b4ebca; */
-    color: black;
-}
-
-article {
-    border-radius: 20px 20px 20px 20px;
-
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-
-    text-align: center;
-    background: #d9f2b497;
-    color: black;
-
-
-}
-
-section {
-
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background: #d3fac7b6;
-    color: black;
-    width: 95%;
-}
-
-table {
-    display: table;
-    background: #AFECE7;
-
-    color: rgb(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-/* id選擇器 */
-.form_type {
-    margin-top:15pt;
-    margin-bottom:15pt;
-
-
-    /* align-items:center 上下的對齊方式 */
-    align-items: center;
-    /* justify-content:center 橫向左右對齊 */
-    justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    font-style: oblique;
-    font-weight: 400;
-
-    border-style: solid;
-    border-color: #A0CED9;
-
-    background-color: #B4EBCA;
-    /* padding: 15px 32px; */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.bn {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: 900;
-    border-radius: 30px 30px 30px 30px;
-
-    border-style: solid;
-    border-color: cornflowerblue;
-    background: repeating-radial-gradient(circle, rgba(88, 105, 148, 0.454), rgba(33, 59, 125, 0.304) 30px, rgba(21, 58, 154, 0.409) 60px);
-    /* background-color:#586994; */
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#a {
-    text-shadow: 0.1em 0.1em 0.2em black;
-
-}
-
-/* div{
-    width: 100pt;
-    height: 50pt;
-} */
-.flex-nav {
-    height: 100%;
+    <div style="
+    text-align:center; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0pt;
+    /* 水平置中 */
+   
+    justify-content: center;    
+    height:auto; ">
+        <button style="
+           
+        height: auto;
+           text-align: center;
+        font-size: 20pt;
+        width: auto;
+       border-radius: 10px 10px 10px 10px;
+       background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
+   
+          
+          " onclick="location.href='guanyoaf_index.html'   ">下一頁(冠詠專屬高級網站)</button>
 
-    /* 沒list的點點 */
-    list-style: none;
-
-    /* height: 30pt;
-    margin: 0px;
-    padding-top: 10pt; */
-
-}
-
-.bb {
-    text-align: left;
-    width: 100%;
-
-}
-
-.cc {
-    margin-left: 5pt;
-    margin-right: 5pt;
-    width: 100%;
-
-    text-align: left;
-
-}
-
-.floatbox {
-    text-align: center;
-    width: 130px;
-    height: 40px;
-    padding: 0pt;
-
-    border: 3px solid rgba(152, 26, 210, 0.53);
-    /* margin-bottom: 20px;
-    margin-top: -5px;
-    float: left; */
-
-    /* display:flex 伸縮盒 */
-    display: flex;
-
-    /* justify-content:center 橫向左右對齊 */
-    justify-content: center;
-
-    /* align-items:center 上下的對齊方式 */
-    align-items: center;
-
-    background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.235), rgba(227, 226, 233, 0.4));
-    /* margin-left: 0px; */
-    float: left;
-}
-details{
-    /* position: relative;
-    top:10px;
-    left: 0px; */
-    background:  rgba(173, 2, 253, 0.658);
-    width: 80%;
-    color:rgb(206, 206, 206);
-    margin-left:10%;
-    border-radius: 10px 10px 10px 10px;
-    /* text-align:center;
-     */
-     /* padding-left: 20px; */
+    </div>
 
 
 
-}
+
+
+
+
+
+    <!-- <header>
+
+
+
+
+        <div style="text-align:center;margin-top:auto;">
+            <button style="
+       
+         height: auto;
+        text-align: center;
+      font-size: 50pt;
+      width: auto;
+      border-radius: 10px 10px 10px 10px;
+      background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459));
+
+       
+       " onclick="location.href='jianguanyonf/a.html'   ">點擊進入冠詠專屬高級網站</button>
+
+
+            <!-- <div class="bg" style="margin-bottom: 60px;">
+            <p>簡冠詠專屬高級網站</p>
+            
+        </div> -->
+    <!-- <div class="box"></div> -->
+
+
+    <!-- <footer>
+        <small>copyright: yangyiqiu</small>
+    </footer> -->
+
+
+</body>
