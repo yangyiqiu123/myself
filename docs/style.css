@@ -13,8 +13,11 @@ header {
 
     height: 100pt;
     width: 100%;
-    margin-bottom: 100pt;
-    margin-top: 100pt;
+    align-items: center;
+    margin-bottom:5%;
+    margin-top: 5%;
+    
+
 
 
 
@@ -251,14 +254,13 @@ details{
     top:10px;
     left: 0px; */
     background:  rgba(173, 2, 253, 0.658);
-    width: 220px;
-    margin-bottom: 100px;
+    width: 80%;
     color:rgb(206, 206, 206);
-    margin-right:10px;
+    margin-left:10%;
     border-radius: 10px 10px 10px 10px;
     /* text-align:center;
      */
-     padding-left: 20px;
+     /* padding-left: 20px; */
 
 
 
