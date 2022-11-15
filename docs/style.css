@@ -92,7 +92,8 @@ footer {
 main {
     margin-top: 30pt;
     border-radius: 20px 20px 20px 20px;
-    padding-top:10px;
+    padding-top:15px;
+    padding-bottom:15px;
     border-radius: 20px 20px 20px 20px;
     background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925));
 
@@ -107,7 +108,8 @@ main {
 article {
     border-radius: 20px 20px 20px 20px;
 
-
+    padding-top:15px;
+    padding-bottom:15px;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
@@ -120,7 +122,8 @@ article {
 }
 
 section {
-
+    padding-top:15px;
+    padding-bottom:15px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
