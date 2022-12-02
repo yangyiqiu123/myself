@@ -3,7 +3,7 @@
 
     width: 100%;
     height: auto;
-  
+    /* background-image: url('7.jpeg'); */
     margin: auto;
     background-color: #fff;
 
@@ -70,9 +70,9 @@ header {
     
     color: rgb(255, 255, 255);
     font-size: 25pt;
-    position: absolute;
+    position: relative;
     text-align: center;
-    bottom: -10px;
+    bottom: 58px;
 }
 
 
@@ -92,15 +92,15 @@ main {
     border-radius: 20px 20px 20px 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 20px 20px 20px 20px;
-    background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925));
+    /* border-radius: 20px 20px 20px 20px; */
+    /* background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925)); */
 
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    text-align: center;
+    /* text-align: center; */
     /* background: #b4ebca; */
-    color: black;
+    /* color: black; */
 }
 
 article {
@@ -297,9 +297,9 @@ details {
 }
 
 #container {
-    background-image: url("17521117-65f3748b31d05035.png");
+    background-image: url("yangyiqiu/graph/ccoding.png");
 
-    background: linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.05)), url("17521117-65f3748b31d05035.png") center bottom no-repeat;
-    background: -moz-linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.062)), url("17521117-65f3748b31d05035.png") center bottom no-repeat;
-    background: -webkit-linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.087)), url("17521117-65f3748b31d05035.png") center bottom no-repeat;
+    background: linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.05)), url("yangyiqiu/graph/ccoding.png") center bottom no-repeat;
+    background: -moz-linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.062)), url("yangyiqiu/graph/ccoding.png") center bottom no-repeat;
+    background: -webkit-linear-gradient(bottom, #ffffff, rgba(51, 51, 51, 0.087)), url("yangyiqiu/graph/ccoding.png") center bottom no-repeat;
 }
