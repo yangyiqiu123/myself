@@ -97,7 +97,7 @@ main {
 
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width:100%;
     /* text-align: center; */
     /* background: #b4ebca; */
     /* color: black; */
@@ -236,7 +236,7 @@ strong {
 }
 
 .pic {
-    width: 500px;
+    width: 400px;
     height: 350px;
     overflow: hidden;
 }
