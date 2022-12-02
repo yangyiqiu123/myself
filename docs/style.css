@@ -67,7 +67,7 @@ header {
 
     height: 39pt;
     width: 100%;
-    
+
     color: rgb(255, 255, 255);
     font-size: 25pt;
     position: relative;
@@ -88,16 +88,16 @@ footer {
 }
 
 main {
-    margin-top: 30pt;
+    /* margin-top: 30pt; */
     border-radius: 20px 20px 20px 20px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     padding-bottom: 15px;
     /* border-radius: 20px 20px 20px 20px; */
     /* background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925)); */
 
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     /* text-align: center; */
     /* background: #b4ebca; */
     /* color: black; */
@@ -225,6 +225,7 @@ table {
     text-align: left;
 
 }
+
 strong {
     display: block;
     font-weight: 900;
@@ -233,8 +234,25 @@ strong {
     text-align: center;
 
 }
+
+.pic {
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.pic img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.pic img:hover {
+    transform: scale(1.2, 1.2);
+}
+
 figure {
     display: block;
+    overflow: hidden;
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-size: 30px;
@@ -243,14 +261,15 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
+
 section {
-   
+
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
     line-height: 1.5;
     width: 90%;
-    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .floatbox {
