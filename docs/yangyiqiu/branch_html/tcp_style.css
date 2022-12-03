@@ -1,0 +1,263 @@
+/* 樣式類別選擇器 */
+.banner {
+
+    width: 100%;
+    height: auto;
+    /* background-image: url('7.jpeg'); */
+    margin: auto;
+    background-color: #fff;
+    background-image: url('Screenshot-3.png');
+
+
+}
+
+/* 型態選擇器 */
+header {
+
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+
+
+
+
+}
+
+.big_title {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: -.5px;
+
+    margin-top: 90px;
+    line-height: 1.25em;
+
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.describe {
+    color: black;
+    font-size: 1.3em;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    margin-top: 5px;
+    line-height: 1.25em;
+
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.artical_title {
+    color: black;
+    font-size: 2.44140625em;
+    font-weight: 900;
+    letter-spacing: -.5px;
+
+    margin-top: 90px;
+    line-height: 1.25em;
+
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.artical_describe {
+    color: black;
+    width: 70%;
+    font-size: 1.5625em;
+    font-weight: 900;
+    line-height: 1.25em;
+
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.small_title {
+    color: black;
+    font-size: 1.3em;
+    font-weight: 900;
+    letter-spacing: -.5px;
+
+    margin-top: 30px;
+    line-height: 1.25em;
+
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.bg {
+
+    /* background-color:rgba(188, 244, 245, 0.466); */
+    /* background: linear-gradient(to bottom, rgb(188, 244, 245), rgba(11, 143, 150, 0.267), rgba(188, 244, 245, 0.632), rgba(188, 244, 245, 0.459)); */
+    /* background-color:linear-gradient(to bottom, rgba(188, 244, 245, 0.466),
+    rgba(113, 230, 177, 0.6)); */
+    width: 50%;
+    border-radius: 10px 10px 10px 10px;
+
+    height: auto;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 300px; */
+    /* align-items: center;  */
+    /* background-size: 100% 100%; */
+
+}
+
+.bg p {
+
+    background-size: 100% 100%;
+    color: black;
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+footer {
+    border-radius: 20px 20px 20px 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    text-align: center;
+    background: #839e0d50;
+    color: black;
+}
+
+main {
+    /* margin-top: 30pt; */
+    border-radius: 20px 20px 20px 20px;
+    /* padding-top: 15px; */
+    padding-bottom: 15px;
+    /* border-radius: 20px 20px 20px 20px; */
+    /* background: linear-gradient(to bottom, rgba(180, 235, 202, 0.55), rgba(70, 151, 126, 0.683), rgba(22, 196, 199, 0.925)); */
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* text-align: center; */
+    /* background: #b4ebca; */
+    /* color: black; */
+}
+
+article {
+    border-radius: 20px 20px 20px 20px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+    text-align: center;
+    background: #d9f2b497;
+    color: black;
+
+
+}
+
+/* section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #d3fac7b6;
+    color: black;
+    width: 95%;
+} */
+
+table {
+    display: table;
+    background: #AFECE7;
+
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* id選擇器 */
+
+
+
+
+
+
+
+
+
+
+
+
+figure {
+    display: block;
+    overflow: hidden;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+section {
+
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    line-height: 1.5;
+    width: 90%;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.floatbox {
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    padding: 0pt;
+
+    /* border: 3px solid rgba(152, 26, 210, 0.53); */
+    /* margin-bottom: 20px;
+    margin-top: -5px;
+    float: left; */
+
+    /* display:flex 伸縮盒 */
+    display: flex;
+
+    /* justify-content:center 橫向左右對齊 */
+    justify-content: center;
+
+    /* align-items:center 上下的對齊方式 */
+    align-items: center;
+
+    /* background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.235), rgba(227, 226, 233, 0.4)); */
+    /* margin-left: 0px; */
+    float: left;
+}
+
+details {
+    /* position: relative;
+    top:10px;
+    left: 0px; */
+    background: rgba(224, 223, 224, 0);
+    width: 60%;
+    color: rgb(12, 12, 12);
+    margin-left: 5%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    /* text-align:center;
+     */
+    /* padding-left: 20px; */
+
+
+
+}
+
