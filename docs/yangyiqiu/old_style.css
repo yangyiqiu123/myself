@@ -1,4 +1,4 @@
-/* ¼Ë¦¡Ãş§O¿ï¾Ü¾¹ */
+/* æ¨£å¼é¡åˆ¥é¸æ“‡å™¨ */
 .banner {
 
     width: 100%;
@@ -9,13 +9,13 @@
 
 }
 
-/* «¬ºA¿ï¾Ü¾¹ */
+/* å‹æ…‹é¸æ“‡å™¨ */
 header {
 
     height: 100pt;
     width: 100%;
     align-items: center;
-    margin-bottom:5%;
+    margin-bottom:18%;
     margin-top: 5%;
     
 
@@ -143,15 +143,15 @@ table {
     width: 90%;
 }
 
-/* id¿ï¾Ü¾¹ */
+/* idé¸æ“‡å™¨ */
 .form_type {
     margin-top:15pt;
     margin-bottom:15pt;
 
 
-    /* align-items:center ¤W¤Uªº¹ï»ô¤è¦¡ */
+    /* align-items:center ä¸Šä¸‹çš„å°é½Šæ–¹å¼ */
     align-items: center;
-    /* justify-content:center ¾î¦V¥ª¥k¹ï»ô */
+    /* justify-content:center æ©«å‘å·¦å³å°é½Š */
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
@@ -205,7 +205,7 @@ table {
     margin-bottom: 0px;
     padding-left: 0pt;
 
-    /* ¨SlistªºÂIÂI */
+    /* æ²’listçš„é»é» */
     list-style: none;
 
     /* height: 30pt;
@@ -240,13 +240,13 @@ table {
     margin-top: -5px;
     float: left; */
 
-    /* display:flex ¦ùÁY²° */
+    /* display:flex ä¼¸ç¸®ç›’ */
     display: flex;
 
-    /* justify-content:center ¾î¦V¥ª¥k¹ï»ô */
+    /* justify-content:center æ©«å‘å·¦å³å°é½Š */
     justify-content: center;
 
-    /* align-items:center ¤W¤Uªº¹ï»ô¤è¦¡ */
+    /* align-items:center ä¸Šä¸‹çš„å°é½Šæ–¹å¼ */
     align-items: center;
 
     background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.235), rgba(227, 226, 233, 0.4));
