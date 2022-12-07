@@ -3,7 +3,7 @@
 
     width: 100%;
     height: auto;
-    background-image: url('7.jpeg');
+    background-image: url('Screenshot-3.png');
     margin: auto;
     background-color: #b4c5cabf;
 
@@ -64,12 +64,12 @@ header p {
 nav {
     border-radius: 10px 10px 10px 10px;
     /* text-align: center; */
-    background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.888), rgba(170, 161, 200, 0.801), rgba(170, 161, 200, 0.842));
+    background: linear-gradient(to bottom, rgba(170, 161, 200, 0.4),rgba(170, 161, 200, 0.4),rgba(170, 161, 200, 0.4), rgba(170, 161, 200, 0.4));
     height: 30pt;
     width: 100%;
     /* background: #aaa1c8; */
     color: black;
-    border-width: 5px;
+    border-width: 1px;
     border: solid rgba(137, 43, 226, 0.075);
 
 
@@ -235,7 +235,7 @@ table {
     height: 40px;
     padding: 0pt;
 
-    border: 3px solid rgba(152, 26, 210, 0.53);
+    border: 1px solid rgba(0, 0, 0, 0.53);
     /* margin-bottom: 20px;
     margin-top: -5px;
     float: left; */
